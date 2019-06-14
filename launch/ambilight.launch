@@ -1,0 +1,4 @@
+<launch>
+    <node name="screen_reader" pkg="raspberry_python_amiblight" type="screen_reader.py" />
+    <node name="led_control" pkg="raspberry_python_amiblight" type="led_control.py" />
+</launch>

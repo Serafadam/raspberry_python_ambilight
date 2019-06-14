@@ -19,7 +19,6 @@ class ScreenReader(object):
         self.pix_publisher = rospy.Publisher('/raspberry_ambilight/data', LedStrip)
         self.x = self.height - self.height/3
 
-
     def get_pixel(self):
         count = 0
         for i in self.pixel_screen_positions:

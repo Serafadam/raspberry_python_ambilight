@@ -158,7 +158,7 @@ catkin_package(
 ## Mark executable scripts (Python etc.) for installation
 ## in contrast to setup.py, you can choose the destination
 #install(PROGRAMS
-#        scripts/LedControl.py
+#        scripts/led_control.py
 #        DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 #        )
 
@@ -178,7 +178,7 @@ catkin_package(
 
 ## Mark other files for installation (e.g. launch and bag files, etc.)
 # install(FILES
-#    src/LedControl.py
+#    src/led_control.py
 #   # myfile2
 #   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 # )
