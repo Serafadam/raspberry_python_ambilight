@@ -5,5 +5,6 @@ setup(
     scripts=['scripts/led_control.py',
              'scripts/screen_reader.py'],
     packages=['raspberry_python_ambilight'],
-    package_dir={'': 'src'}
+    package_dir={'': 'src'},
+    requires={'numpy', 'adafruit-circuitpython-neopixel', 'rpi-ws281x', 'PygObject', }
 )
